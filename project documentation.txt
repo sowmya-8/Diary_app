@@ -1,0 +1,58 @@
+Mindful Diary is a digital journaling application built with React, TypeScript, and Tailwind CSS. 
+The application focuses on helping users document their thoughts, track emotions, and refresh their minds through interactive games.
+
+Key Features:
+
+User Authentication-
+-Email/password authentication
+-Protected routes
+-Local storage session management
+
+Diary Management-
+-CRUD operations for diary entries
+-Mood tracking (happy, calm, sad, angry, anxious, neutral)
+-Date-based organization
+-Search and filtering
+
+Memory Game-
+-Card matching gameplay
+-Score tracking
+-Personal best records
+-Timed challenges
+
+Modern UI/UX-
+-Responsive design
+-Dark mode support
+-Clean, intuitive interface
+-Smooth transitions
+
+Technical Stack-
+-React 18.3.1 with TypeScript
+-Tailwind CSS for styling
+-Vite as build tool
+-React Router for navigation
+-Lucide React for icons
+-Context API for state management
+-Local Storage for data persistence
+
+Architecture-
+-Component-based structure
+-Context providers for auth, diary, and theme
+-TypeScript interfaces for type safety
+-Utility functions for common operations
+-Protected routing for authenticated content
+
+Data Models-
+-Users (id, username, password)
+-Diary Entries (id, userId, title, content, mood, timestamps)
+-Game Scores (score, date)
+
+Security-
+-Protected routes
+-Password validation
+-User data isolation
+-Session management
+
+The project follows modern React best practices, emphasizing type safety, component reusability, and efficient state management. 
+It's designed to be maintainable and scalable, with clear separation of concerns and modular architecture.
+
